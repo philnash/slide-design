@@ -31,7 +31,7 @@
     <div class="reveal">
       <!-- Any section element inside of this container is displayed as a slide -->
       <div class="slides">
-        <section class="confetti confetti-small">
+        <section>
           <a href="https://revealjs.com">
             <img
               src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg"
@@ -55,7 +55,7 @@
           </p>
         </section>
 
-        <section class="confetti">
+        <section>
           <h2 style="text-align: left; float: left">Hello There</h2>
           <p class="r-stretch">
             reveal.js enables you to create beautiful interactive slide decks
@@ -66,7 +66,7 @@
 
         <!-- Example of nested vertical slides -->
         <section>
-          <section class="confetti confetti-large">
+          <section>
             <h2>Vertical Slides</h2>
             <p>Slides can be nested inside of each other.</p>
             <p>Use the <em>Space</em> key to navigate through all slides.</p>
@@ -729,6 +729,20 @@ Reveal.on( 'customevent', function() {
             helpful when you're on stage and want to take distracting slides off
             the screen.
           </p>
+        </section>
+
+        <section data-confetti data-confetti-small>
+          <h2>Confetti</h2>
+
+          <p>
+            Throw confetti on to your slides by adding data attributes to your
+            slides.
+          </p>
+
+          <pre><code class="html" data-trim contenteditable style="font-size: 18px;">&lt;section data-confetti data-confetti-small&gt;&lt;/section&gt;
+&lt;section data-confetti data-confetti-medium&gt;&lt;/section&gt;
+&lt;section data-confetti data-confetti-large data-confetti-duration="10"&gt;&lt;/section&gt;
+          </code></pre>
         </section>
 
         <section>
