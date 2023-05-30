@@ -753,7 +753,7 @@ $controlsArrowAngleActive: 36deg;
 @mixin transition-horizontal-past($style) {
 	.reveal .slides>section[data-transition=#{$style}].past,
 	.reveal .slides>section[data-transition~=#{$style}-out].past,
-	.reveal.#{$style} .slides>section:not([data-transition]).past {
+	.reveal.#{$style}  :not([data-transition]).past {
 		@content;
 	}
 }

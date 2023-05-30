@@ -22,12 +22,17 @@
 	color: var(--r-selection-color);
 	background: var(--r-selection-background-color);
 	text-shadow: none;
+	-webkit-background-clip: initial;
+  background-clip: initial;
+	-webkit-text-fill-color: initial; 
 }
 
 .reveal ::-moz-selection {
 	color: var(--r-selection-color);
 	background: var(--r-selection-background-color);
 	text-shadow: none;
+  background-clip: initial;
+	-webkit-text-fill-color: initial;
 }
 
 .reveal .slides section,
